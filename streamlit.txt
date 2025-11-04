@@ -2,6 +2,20 @@ import streamlit as st
 import random
 import time
 from collections import deque
+import streamlit as st
+
+# Page title and subtitle with college name
+st.set_page_config(page_title="Air Quality Monitoring", page_icon="🌍", layout="wide")
+
+st.markdown("""
+    <h1 style="text-align: center; color: #4CAF50;">
+        🌍 Real-Time Air Quality Monitoring System
+    </h1>
+    <h4 style="text-align: center; color: #D3D3D3;">
+        Velalar College of Engineering and Technology
+    </h4>
+    <hr>
+""", unsafe_allow_html=True)
 
 # Title and description
 st.title("🌍 Real-Time Air Quality Monitoring System")
