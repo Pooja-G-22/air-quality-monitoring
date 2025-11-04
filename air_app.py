@@ -3,6 +3,20 @@ import random
 import time
 from collections import deque
 import streamlit as st
+# Custom CSS for better design
+st.markdown("""
+    <style>
+    .alert-box {
+        background-color: #fff3cd;
+        color: #856404;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        font-weight: bold;
+        border-left: 6px solid #ffcc00;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # Page title and subtitle with college name
 st.set_page_config(page_title="Air Quality Monitoring", page_icon="🌍", layout="wide")
